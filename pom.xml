@@ -44,7 +44,7 @@
 							<env>${env}</env>
 						</properties>
 					</cloudHubDeployment>
-					</configuration>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
@@ -74,6 +74,12 @@
 			<version>1.0.0</version>
 			<classifier>raml</classifier>
 			<type>zip</type>
+		</dependency>
+		<dependency>
+			<groupId>com.mulesoft.connectors</groupId>
+			<artifactId>mule-cloudhub-connector</artifactId>
+			<version>1.0.1</version>
+			<classifier>mule-plugin</classifier>
 		</dependency>
 	</dependencies>
 

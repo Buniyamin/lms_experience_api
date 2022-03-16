@@ -3,3 +3,9 @@ https:
  
 request:
  host: "salesforceprocess-1uat.us-e2.cloudhub.io"
+ 
+cloudhub:
+ username: "LMS-1"
+ password: "Lms@1234"
+ domain: "salesforceexperience-1uat"
+ envi: "UAT"
